@@ -1,0 +1,357 @@
+
+@media (min-width: 1301px) {
+    .home button {
+        font-size: 1.5vw;
+    }
+    .hide-caro-md {
+        display: block; !important;
+        position: relative;
+    }
+
+    .hide-caro-lg {
+        position: absolute;
+        top: -2000px;
+        visibility: hidden;
+        display: none; !important;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .hide-caro-md {
+        display: none; !important;
+        position: absolute;
+        top: -2000px;
+        visibility: hidden;
+        top: -1000px;
+    }
+
+    .hide-caro-lg {
+        display: block; !important;
+        position: relative;
+    }
+    .carousel-caption {
+        padding-bottom: 12vw;
+    }
+    .home button {
+        font-size: 1.6vw;
+    }
+
+    /* pet details */
+    .pet-details .big-featured {
+        border-radius:1%;
+        height: auto;
+        width: 20rem;
+    }
+    .thumb {
+        height: 5rem;
+        width: 5rem;
+        object-fit: cover;
+    }
+    figure {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .forum-sm-img {
+        display: none;
+        position: absolute;
+        top: -2000px;
+        visibility: hidden;
+    }
+    . forum-sm-margin {
+        padding-left: 10%;
+    }
+
+}
+
+@media (min-width: 1001px) {
+
+    .carousel-caption {
+        top: 20%;
+    }
+
+    .alert-hide-left, .alert-hide-right {
+        display: block;
+        position: relative;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .carousel-caption {
+        padding-bottom: 8vw;
+    }
+
+    .adopt .card-body p {
+        color: #494949;
+        font-weight: normal;
+        font-size: 1vw;
+    }
+
+    .alert-hide-left, .alert-hide-right {
+        display: none; !important;
+        position: absolute;
+        top: -2000px;
+        visibility: hidden;
+    }
+
+    .main-alert-img {
+        margin: 0 auto;
+    }
+
+    .pet-alert-card{
+        margin: 2%;
+    }
+}
+
+
+@media (min-width: 901px) {
+
+    .carousel-caption {
+        top: 16%;
+    }
+}
+
+@media (max-width: 900px) {
+    .carousel-caption {
+        top: 18%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    li.page-item {
+        display: none;
+    }
+
+    .page-item:first-child,
+    .page-item:nth-child( 2 ),
+    .page-item:nth-last-child( 2 ),
+    .page-item:last-child,
+    .page-item.active,
+    .page-item.disabled {
+
+        display: block;
+    }
+
+    .pet-tracks {
+        display: none;
+        position: absolute;
+        top: -2000px;
+        visibility: hidden;
+    }
+    .hide-md {
+        display: none;
+        position: absolute;
+        top: -2000px;
+        visibility: hidden;
+    }
+
+    .sm-right {
+        margin-left: auto;
+    }
+
+    .donate-container .btn-group .btn {
+        font-size: 1.5vw;
+    }
+
+    .forum-cards .card-body {
+        height: 11.5vw;
+    }
+
+    .forum-thumb img {
+        max-height: 11vw;
+        width: auto;
+        padding: 0;
+    }
+
+    .adopt .card-img-top {
+        height: 20vw;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .carousel-caption {
+        padding-bottom: 5vw;
+    }
+
+    .adopt .card-body h2 {
+        color: #000000;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+
+    .adopt .card-img-top {
+        height: 25vw;
+    }
+
+    .adopt .card-body h1 {
+        color: #ed450c;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+
+    .adopt .card-body p {
+        color: #494949;
+        font-weight: normal;
+        font-size: 1.6vw;
+    }
+
+    .adopt .card-title {
+        font-size: 2vw;
+        font-weight: bold;
+        color: #4c4c4c;
+    }
+
+    .adopt .card-footer {
+        font-size: 2vw;
+    }
+
+    .donate-container .btn-group .btn {
+        font-size: 2.5vw;
+    }
+
+    .forum-cards .card-body {
+        height: 15vw;
+    }
+
+    .forum-thumb img {
+        max-height: 14.5vw;
+        width: auto;
+        padding: 0;
+    }
+
+    .forum-cards .card-body h2, p {
+        font-size: calc(12px + 8 * ((100vw - 320px) / 680));
+    }
+
+    .pet-alert-card .card-body h2 {
+        font-size: calc(16px + 8 * ((100vw - 320px) / 680));
+    }
+}
+
+@media (max-width: 575px) {
+    .hide-sm {
+        display: none;
+        visibility: hidden;
+        position: absolute;
+        left: 1000px;
+    }
+    .adopt .card-img-top {
+        width: 100%;
+        height: 45vw;
+        object-fit: cover;
+    }
+
+    .donate-container .btn-group .btn {
+        font-size: 3.5vw;
+    }
+
+    .viewing {
+        font-size: calc(24px + 12 * ((100vw - 320px) / 680));
+    }
+
+    .search-bar {
+        margin: 2%;
+    }
+
+    .forum-cards {
+        margin: 1%;
+        width: 100%;
+    }
+
+    .forum-cards .card-body {
+        height: 15vw;
+    }
+
+    .forum-thumb img {
+        display: none;
+        position: absolute;
+        top: -2000px;
+        visibility: hidden;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .ombre-nav .navbar{
+        display: none;
+    }
+    .adopt .card-img-top {
+        height: 60vw;
+    }
+    .adopt .card-body p {
+        color: #494949;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    .adopt .card-body h2 {
+        color: #000000;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    .adopt .card-body h1 {
+        color: #ed450c;
+        font-weight: normal;
+        font-size: 4vw;
+    }
+
+    .home button {
+        padding: 2px;
+        font-size: 2vw;
+        margin-bottom: 10vw;
+    }
+    .carousel-caption {
+        top: 5%;
+        bottom: auto;
+    }
+
+        /* pet details */
+    .pet-details .big-featured {
+        border-radius:1%;
+        height: 18rem;
+        width: 18rem;
+    }
+    .thumb {
+        max-height: 5rem;
+        width: 5rem;
+        object-fit: cover;
+    }
+    figure {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .forum-cards .card-body h2, p {
+        font-size: calc(12px + 9 * ((100vw - 320px) / 680));
+    }
+
+    .forum-cards .card-body {
+        height: 20vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /*.carousel h1 {*/
+    /*    font-size: 1.5vh;*/
+    /*}*/
+    /*.carousel h2 {*/
+    /*    font-size: .8vh;*/
+    /*}*/
+    /*.carousel p {*/
+    /*    font-size: .6vh;*/
+    /*}*/
+
+    .home button {
+        font-size: 2vw;
+        padding: 2px;
+    }
+
+}
